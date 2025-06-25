@@ -26,7 +26,7 @@ export async function generateMetadata() {
       'twitter:player': 'https://memespin.winks.fun',
       'twitter:player:width': '360',
       'twitter:player:height': '560',
-      'twitter:image': 'https://res.cloudinary.com/dvddnptpi/image/upload/v1738600087/zqhjyzunv8fq8nxt9ggk.png',
+      'twitter:image': 'https://res.cloudinary.com/dvddnptpi/image/upload/v1750840056/bonsai_jqudac.png',
     },
   };
 }
