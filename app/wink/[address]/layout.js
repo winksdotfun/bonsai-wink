@@ -14,21 +14,21 @@ const geistMono = Geist_Mono({
 });
 
 export async function generateMetadata({ params }) {
-  const baseUrl = "https://cd48-38-134-138-147.ngrok-free.app";
+  const baseUrl = "https://bonsai.winks.fun";
   const { address } = params;
 
   return {
-    title: "Memespin - Fair Blockchain Gaming",
+    title: "Bonsai - Unleash Your Creativity",
     description:
-      "Experience the thrill of Memespin! Winners share the prize pool, draws get half back, and losers get nothing. Play now!",
+      "Share your remixes and inspire a community of creators.",
     metadataBase: new URL(baseUrl),
     other: {
       "twitter:card": "player",
       "twitter:site": "@winksdotfun",
-      "twitter:title": "Memespin - Fair Blockchain Gaming",
+      "twitter:title": "Bonsai - Unleash Your Creativity",
       "twitter:description":
-        "Experience the thrill of Memespin! Winners share the prize pool, draws get half back, and losers get nothing. Play now!",
-      "twitter:player": `https://cd48-38-134-138-147.ngrok-free.app/wink/${address}`,
+        "Share your remixes and inspire a community of creators.",
+      "twitter:player": `https://bonsai.winks.fun/wink/${address}`,
       "twitter:player:width": "360",
       "twitter:player:height": "560",
       "twitter:image":

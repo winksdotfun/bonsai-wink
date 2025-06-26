@@ -15,15 +15,15 @@ const geistMono = Geist_Mono({
 // Using Next.js's generateMetadata to have more control over meta tags
 export async function generateMetadata() {
   return {
-    title: "Memespin - Fair Blockchain Gaming",
-    description: "Experience the thrill of Memespin! Winners share the prize pool, draws get half back, and losers get nothing. Play now!",
+    title: "Bonsai - Unleash Your Creativity",
+    description: "Share your remixes and inspire a community of creators.",
     // Twitter specific meta tags
     other: {
       'twitter:card': 'player',
       'twitter:site': '@winksdotfun',
-      'twitter:title': 'Memespin - Fair Blockchain Gaming',
-      'twitter:description': 'Experience the thrill of Memespin! Winners share the prize pool, draws get half back, and losers get nothing. Play now!',
-      'twitter:player': 'https://memespin.winks.fun',
+      'twitter:title': 'Bonsai - Unleash Your Creativity',
+      'twitter:description': 'Share your remixes and inspire a community of creators.',
+      'twitter:player': 'https://bonsai.winks.fun',
       'twitter:player:width': '360',
       'twitter:player:height': '560',
       'twitter:image': 'https://res.cloudinary.com/dvddnptpi/image/upload/v1750840056/bonsai_jqudac.png',
@@ -45,7 +45,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {/* <ReferrerTracker /> */}
+        <ReferrerTracker />
         {children}
 
       </body>

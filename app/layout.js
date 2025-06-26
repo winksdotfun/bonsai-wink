@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Donate wink",
-  description: "Create a sharable wink for donation on X",
+  title: "Bonsai - Unleash Your Creativity",
+  description: "Share your remixes and inspire a community of creators.",
 };
 
 export default function RootLayout({ children }) {
